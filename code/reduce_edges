@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+from sys import argv, stdout
+import time
+import resource
+try:
+    import filtration_domination
+except ImportError:
+    print("The required module 'filtration-domination' is not installed.")
+    exit(1)
+
+def reduce_edges(filename, output_filename):
+    raw_edges = open(filename, 'r')
+    edges = []
+    for l in raw_edges.readlines():
+        parts = l.split()
+        edge = (int(parts[0]), int(parts[1]))
+        grade = (float(parts[2]), float(parts[3]))
+        edges.append((edge, grade))
+    
+    num_input_edges = len(edges)
+    print("Number of vertices: {}".format(max([edge[0] for edge, _ in edges])
+                                          +1))
+    print("Filtration domination started here")
+    print("Number of input edges: {}".format(num_input_edges)) 
+    
+    # Measure the start time
+    start_time = time.time()
+
+    # Execute the command and measure memory usage
+    usage_start = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+    reduced = filtration_domination.remove_strongly_filtration_dominated(edges)
+    usage_end = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+    print("Filtration domination ended here.")
+    # Measure time
+    elapsed_time = time.time() - start_time
+    num_reduced_edges = len(reduced)
+    print("Number of reduced edges: {}".format(num_reduced_edges))
+    print("Filtration domination time: {:.3f} seconds".format(elapsed_time))
+    print("Memory usage: {} B".format(usage_end - usage_start))
+    
+    with open(output_filename, 'w') as output_file:
+        for edge in reduced:
+            output_file.write("{} {} {} {}\n".format(edge[0][0], edge[0][1], edge[1][0], edge[1][1]))
+
+if __name__ == '__main__':
+    # Check if the filename and output filename arguments are provided
+    if len(argv) != 3:
+        print("Usage: python3 reduce_edge.py <filename> <output_filename>")
+        exit(1)
+
+    # Get the filename and output filename from the command-line arguments
+    filename = argv[1]
+    output_filename = argv[2]
+    reduce_edges(filename, output_filename)

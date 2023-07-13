@@ -1,0 +1,46 @@
+Number of vertices: 500
+Filtration domination started here
+Number of input edges: 124750
+Removing strongly filtration-dominated edges....
+Filtration domination ended here.
+Number of reduced edges: 16665
+Filtration domination time: 2.376 seconds
+Memory usage: 3516
+Computing the minimal presentation of homology dimension 1 induced by a bifiltered graph
+Memory after initial: 6264
+Number of edges collected 16665
+Dimension of complex before expansion 1
+Dimension of complex 3
+Dimension of complex: 3
+Simplex tree has 500 vertices and 2775487 simplices
+Graded matrices computed from simplex tree
+Simplices in dimension 0: 500
+Simplices in dimension 1: 16665
+Simplices in dimension 2: 258175
+Simplices in dimension 3: 2500147
+Mpfree starts
+Homology dimension is 1
+<<<<<<<<<<<<<<<<<<<< Mpfree output start
+here
+Min Gens...done, size is 500x1799
+Ker basis...done, size is 500x500
+Reparameterize...done
+Resulting semi-minimal presentation has 1799 columns and 500 rows
+Minimize...done
+Resulting minimal presentation has 1799 columns and 500 rows
+>>>>>>>>>>>>>>>>>>>> Mpfree output end
+Memory after mpfree: 702724
+Overall timer: 3.07424
+Inital timer:           0.0299435     ( 0.974013% )
+Complex timer:          0.112565     ( 3.66157% )
+Face timer:             0
+Meb timer:              0
+Graded matrices timer:  2.87752     ( 93.6009% )
+Multi chunk timer:      0
+Mpfree timer:           0.0291325     ( 0.947632% )
+File output timer:      0
+Delaunay timer:         0
+Test timer 1:           0
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

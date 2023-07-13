@@ -1,0 +1,83 @@
+Dimension is 2
+Read 8000 points
+Memory after initial: 4588
+Start complex
+In the plane, using CGAL::Delaunay_triangulation_2
+Number of insertions outside convex hull 17
+Collected 85995 simplices
+Memory after complex: 10968
+Simplex tree has 8000 vertices and 375891 simplices
+Memory after face: 34020
+Computed 145343 mebs (number of simplices=375891)
+Computed all meb values, now sorting
+Memory after bigrade: 34020
+Building graded boundary matrices
+Simplices in dimension 0: 8000
+Simplices in dimension 1: 101974
+Simplices in dimension 2: 179946
+Simplices in dimension 3: 85971
+Memory after boundary: 89936
+Simplices per second: 550702
+Time per simplex (in microseconds): 1.81594
+Apply multi_chunk
+<<<<<<<<<<<<<<<<<<<< Multi-chunk output start
+Initialize..
+Num rows 0: 179946
+Num rows 1: 101974
+Num rows 2: 8000
+Num rows 3: 0
+Local reductions...
+d=0, num cols: 85971, num rows: 179946
+# global indices 4144
+Num entries after local reduce: 344346
+d=1, num cols: 179946, num rows: 101974
+# global indices 15798
+Num entries after local reduce: 294357
+d=2, num cols: 101974, num rows: 8000
+# global indices 19653
+Num entries after local reduce: 39306
+Compression...
+d=3 new dimensions are 0x8000
+Compare new dimensions are 0x8000
+d=2 new dimensions are 8000x19653
+Compare new dimensions are 8000x19653
+d=1 new dimensions are 19653x15798
+Compare new dimensions are 19653x15798
+d=0 new dimensions are 15798x4144
+Compare new dimensions are 15798x4144
+Multi-chunk is done
+N before=375891
+N after =47595
+Compression rate: 0.1266
+>>>>>>>>>>>>>>>>>>>> Multi-chunk output end
+Number of chains after mult-chunk: 47595
+Memory after multi-chunk: 89936
+using Mpfree
+Homology dimension is 0
+1st matrix: 8000 x 19653
+2nd matrix: 0 x 8000
+<<<<<<<<<<<<<<<<<<<< Mpfree output start
+here
+Min Gens...done, size is 8000x11481
+Ker basis...done, size is 8000x8000
+Reparameterize...done
+Resulting semi-minimal presentation has 11481 columns and 8000 rows
+Minimize...done
+Resulting minimal presentation has 11481 columns and 8000 rows
+>>>>>>>>>>>>>>>>>>>> Mpfree output end
+Memory after mpfree: 89936
+Memory in the end: 89936
+Overall timer: 0.9278
+Inital timer:           0.01844     ( 1.988% )
+Complex timer:          0.03772     ( 4.066% )
+Face timer:             0.05955     ( 6.419% )
+Meb timer:              0.2235     ( 24.09% )
+Graded matrices timer:  0.3235     ( 34.87% )
+Multi chunk timer:      0.1934     ( 20.85% )
+Mpfree timer:           0.05173     ( 5.576% )
+File output timer:      0
+Delaunay timer:         0
+Test timer 1:           0
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

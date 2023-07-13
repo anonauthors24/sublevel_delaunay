@@ -1,0 +1,90 @@
+Dimension is 3
+Read 1000 points
+Memory after initial: 4284
+Start complex
+In space, using CGAL::Delaunay_triangulation_3
+Number of insertions outside convex hull 94
+Collected 17059 simplices
+Memory after complex: 6628
+Simplex tree has 1000 vertices and 116635 simplices
+Memory after face: 13120
+Computed 37997 mebs (number of simplices=116635)
+Computed all meb values, now sorting
+Memory after bigrade: 13120
+Building graded boundary matrices
+Simplices in dimension 0: 1000
+Simplices in dimension 1: 13511
+Simplices in dimension 2: 40703
+Simplices in dimension 3: 44806
+Simplices in dimension 4: 16615
+Memory after boundary: 31516
+Simplices per second: 560746
+Time per simplex (in microseconds): 1.78358
+Apply multi_chunk
+<<<<<<<<<<<<<<<<<<<< Multi-chunk output start
+Initialize..
+Num rows 0: 44806
+Num rows 1: 40703
+Num rows 2: 13511
+Num rows 3: 1000
+Num rows 4: 0
+Local reductions...
+d=0, num cols: 16615, num rows: 44806
+# global indices 746
+Num entries after local reduce: 84414
+d=1, num cols: 44806, num rows: 40703
+# global indices 4314
+Num entries after local reduce: 116136
+d=2, num cols: 40703, num rows: 13511
+# global indices 7461
+Num entries after local reduce: 48240
+d=3, num cols: 13511, num rows: 1000
+# global indices 4892
+Num entries after local reduce: 9784
+Compression...
+d=4 new dimensions are 0x1000
+Compare new dimensions are 0x1000
+d=3 new dimensions are 1000x4892
+Compare new dimensions are 1000x4892
+d=2 new dimensions are 4892x7461
+Compare new dimensions are 4892x7461
+d=1 new dimensions are 7461x4314
+Compare new dimensions are 7461x4314
+d=0 new dimensions are 4314x746
+Compare new dimensions are 4314x746
+Multi-chunk is done
+N before=116635
+N after =18413
+Compression rate: 0.1579
+>>>>>>>>>>>>>>>>>>>> Multi-chunk output end
+Number of chains after mult-chunk: 18413
+Memory after multi-chunk: 31840
+using Mpfree
+Homology dimension is 0
+1st matrix: 1000 x 4892
+2nd matrix: 0 x 1000
+<<<<<<<<<<<<<<<<<<<< Mpfree output start
+here
+Min Gens...done, size is 1000x1976
+Ker basis...done, size is 1000x1000
+Reparameterize...done
+Resulting semi-minimal presentation has 1976 columns and 1000 rows
+Minimize...done
+Resulting minimal presentation has 1976 columns and 1000 rows
+>>>>>>>>>>>>>>>>>>>> Mpfree output end
+Memory after mpfree: 31840
+Memory in the end: 31840
+Overall timer: 0.2316
+Inital timer:           0.004934     ( 2.131% )
+Complex timer:          0.014     ( 6.046% )
+Face timer:             0.01718     ( 7.42% )
+Meb timer:              0.07334     ( 31.67% )
+Graded matrices timer:  0.09727     ( 42.01% )
+Multi chunk timer:      0.0152     ( 6.564% )
+Mpfree timer:           0.008313     ( 3.59% )
+File output timer:      0
+Delaunay timer:         0
+Test timer 1:           0
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

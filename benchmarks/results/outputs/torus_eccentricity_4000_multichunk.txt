@@ -1,0 +1,88 @@
+Dimension is 3
+Read 4000 points
+Memory after initial: 4512
+Start complex
+In space, using CGAL::Delaunay_triangulation_3
+Number of insertions outside convex hull 62
+Collected 145603 simplices
+Memory after complex: 17068
+Simplex tree has 4000 vertices and 937369 simplices
+Memory after face: 73276
+Computed 255831 mebs (number of simplices=937369)
+Computed all meb values, now sorting
+Memory after bigrade: 73276
+Building graded boundary matrices
+Simplices in dimension 0: 4000
+Simplices in dimension 1: 92932
+Simplices in dimension 2: 319281
+Simplices in dimension 3: 375752
+Simplices in dimension 4: 145404
+Memory after boundary: 230164
+Simplices per second: 477707
+Time per simplex (in microseconds): 2.09337
+Apply multi_chunk
+<<<<<<<<<<<<<<<<<<<< Multi-chunk output start
+Initialize..
+Num rows 0: 375752
+Num rows 1: 319281
+Num rows 2: 92932
+Num rows 3: 4000
+Num rows 4: 0
+Local reductions...
+d=0, num cols: 145404, num rows: 375752
+# global indices 2539
+Num entries after local reduce: 738798
+d=1, num cols: 375752, num rows: 319281
+# global indices 10503
+Num entries after local reduce: 938886
+d=2, num cols: 319281, num rows: 92932
+# global indices 18605
+Num entries after local reduce: 290691
+d=3, num cols: 92932, num rows: 4000
+# global indices 14640
+Num entries after local reduce: 29280
+Compression...
+d=4 new dimensions are 0x4000
+Compare new dimensions are 0x4000
+d=3 new dimensions are 4000x14640
+Compare new dimensions are 4000x14640
+d=2 new dimensions are 14640x18605
+Compare new dimensions are 14640x18605
+d=1 new dimensions are 18605x10503
+Compare new dimensions are 18605x10503
+d=0 new dimensions are 10503x2539
+Compare new dimensions are 10503x2539
+Multi-chunk is done
+N before=937369
+N after =50287
+Compression rate: 0.05365
+>>>>>>>>>>>>>>>>>>>> Multi-chunk output end
+Number of chains after mult-chunk: 50287
+Memory after multi-chunk: 234812
+In space, using CGAL::Delaunay_triangulation_3
+Delaunay computed, now counting simplices
+--------------------------------------------
+Delaunay:
+Total size of Del: 105249
+Simplices in dimension 0: 4000
+Simplices in dimension 1: 28339
+Simplices in dimension 2: 48625
+Simplices in dimension 3: 24285
+Ratio: 8.906
+Multi-chunk-Ratio: 0.4778
+--------------------------------------------
+Memory in the end: 234812
+Overall timer: 2.847
+Inital timer:           0.007592     ( 0.2667% )
+Complex timer:          0.08164     ( 2.868% )
+Face timer:             0.1449     ( 5.089% )
+Meb timer:              0.6472     ( 22.73% )
+Graded matrices timer:  1.02     ( 35.84% )
+Multi chunk timer:      0.8353     ( 29.34% )
+Mpfree timer:           0
+File output timer:      0
+Delaunay timer:         0.04911     ( 1.725% )
+Test timer 1:           0.01824     ( 0.6407% )
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

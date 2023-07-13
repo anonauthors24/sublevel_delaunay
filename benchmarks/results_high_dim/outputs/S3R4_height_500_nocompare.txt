@@ -1,0 +1,37 @@
+Dimension is 4
+Read 500 points
+Memory after initial: 4112
+Start complex
+Number of insertions outside convex hull 495
+Collected 60951 simplices
+Memory after complex: 8976
+Simplex tree has 500 vertices and 503865 simplices
+Memory after face: 40128
+Computed 105226 mebs (number of simplices=503865)
+Computed all meb values, now sorting
+Memory after bigrade: 40128
+Building graded boundary matrices
+Simplices in dimension 0: 500
+Simplices in dimension 1: 16926
+Simplices in dimension 2: 92754
+Simplices in dimension 3: 186098
+Simplices in dimension 4: 158679
+Simplices in dimension 5: 48908
+Memory after boundary: 124376
+Simplices per second: 440090
+Time per simplex (in microseconds): 2.27232
+Memory in the end: 124376
+Overall timer: 1.14495
+Inital timer:           0.00128558     ( 0.112282% )
+Complex timer:          0.125712     ( 10.9796% )
+Face timer:             0.0753099     ( 6.57756% )
+Meb timer:              0.376437     ( 32.878% )
+Graded matrices timer:  0.556115     ( 48.571% )
+Multi chunk timer:      0
+Mpfree timer:           0
+File output timer:      0
+Delaunay timer:         0
+Test timer 1:           0
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

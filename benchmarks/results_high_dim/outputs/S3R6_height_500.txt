@@ -1,0 +1,52 @@
+Dimension is 6
+Read 500 points
+Memory after initial: 4400
+Start complex
+Number of insertions outside convex hull 493
+Collected 910251 simplices
+Memory after complex: 88028
+Simplex tree has 500 vertices and 16089733 simplices
+Memory after face: 1106804
+Computed 1756882 mebs (number of simplices=16089733)
+Computed all meb values, now sorting
+Memory after bigrade: 4654436
+Building graded boundary matrices
+Simplices in dimension 0: 500
+Simplices in dimension 1: 31088
+Simplices in dimension 2: 398416
+Simplices in dimension 3: 1919686
+Simplices in dimension 4: 4437244
+Simplices in dimension 5: 5325594
+Simplices in dimension 6: 3208707
+Simplices in dimension 7: 768498
+Memory after boundary: 7544880
+Simplices per second: 142204
+Time per simplex (in microseconds): 7.03217
+Delaunay computed, now counting simplices
+--------------------------------------------
+Delaunay:
+Total size of Del: 1699797
+Simplices in dimension 0: 500
+Simplices in dimension 1: 14787
+Simplices in dimension 2: 118436
+Simplices in dimension 3: 387356
+Simplices in dimension 4: 603286
+Simplices in dimension 5: 447755
+Simplices in dimension 6: 127677
+Ratio: 9.46568
+--------------------------------------------
+Memory in the end: 7544880
+Overall timer: 118.226
+Inital timer:           0.001285     ( 0.0010869% )
+Complex timer:          59.0656     ( 49.96% )
+Face timer:             4.05882     ( 3.43311% )
+Meb timer:              20.2356     ( 17.1161% )
+Graded matrices timer:  29.3927     ( 24.8615% )
+Multi chunk timer:      0
+Mpfree timer:           0
+File output timer:      0
+Delaunay timer:         5.07997     ( 4.29684% )
+Test timer 1:           3.75381     ( 3.17512% )
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

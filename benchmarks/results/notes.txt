@@ -1,0 +1,1 @@
+noise ratio = 0.1, and bandwidth = 0.1 (default)

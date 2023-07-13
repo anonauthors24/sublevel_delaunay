@@ -1,0 +1,36 @@
+Dimension is 2
+Read 16000 points
+Memory after initial: 4788
+Start complex
+In the plane, using CGAL::Delaunay_triangulation_2
+Number of insertions outside convex hull 15997
+Collected 162879 simplices
+Memory after complex: 17100
+Simplex tree has 16000 vertices and 619561 simplices
+Memory after face: 54044
+Simplices per second: 2.99517e+06
+Time per simplex (in microseconds): 0.333931
+In the plane, using CGAL::Delaunay_triangulation_2
+Delaunay computed, now counting simplices
+--------------------------------------------
+Delaunay:
+Total size of Del: 95953
+Simplices in dimension 0: 16000
+Simplices in dimension 1: 47976
+Simplices in dimension 2: 31977
+Ratio: 6.45692
+--------------------------------------------
+Overall timer: 0.281016
+Inital timer:           0.0207347     ( 7.37848% )
+Complex timer:          0.0511838     ( 18.2138% )
+Face timer:             0.0781869     ( 27.8229% )
+Meb timer:              0
+Graded matrices timer:  0
+Multi chunk timer:      0
+Mpfree timer:           0
+File output timer:      0
+Delaunay timer:         0.0741009     ( 26.3689% )
+Test timer 1:           0.0105848     ( 3.76663% )
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

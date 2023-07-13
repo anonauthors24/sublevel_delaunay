@@ -1,0 +1,12 @@
+Number of vertices: 1000
+Filtration domination started here
+Number of input edges: 499500
+Removing strongly filtration-dominated edges....
+Filtration domination ended here.
+Number of reduced edges: 173725
+Filtration domination time: 45.989 seconds
+Memory usage: 51292
+Computing the minimal presentation of homology dimension 1 induced by a bifiltered graph
+Memory after initial: 24104
+Number of edges collected 173725
+Dimension of complex before expansion 1

@@ -1,0 +1,83 @@
+Dimension is 2
+Read 4000 points
+Memory after initial: 4208
+Start complex
+In the plane, using CGAL::Delaunay_triangulation_2
+Number of insertions outside convex hull 17
+Collected 41097 simplices
+Memory after complex: 7660
+Simplex tree has 4000 vertices and 180307 simplices
+Memory after face: 18532
+Computed 70416 mebs (number of simplices=180307)
+Computed all meb values, now sorting
+Memory after bigrade: 18532
+Building graded boundary matrices
+Simplices in dimension 0: 4000
+Simplices in dimension 1: 49076
+Simplices in dimension 2: 86154
+Simplices in dimension 3: 41077
+Memory after boundary: 45416
+Simplices per second: 652879
+Time per simplex (in microseconds): 1.53184
+Apply multi_chunk
+<<<<<<<<<<<<<<<<<<<< Multi-chunk output start
+Initialize..
+Num rows 0: 86154
+Num rows 1: 49076
+Num rows 2: 4000
+Num rows 3: 0
+Local reductions...
+d=0, num cols: 41077, num rows: 86154
+# global indices 2316
+Num entries after local reduce: 164572
+d=1, num cols: 86154, num rows: 49076
+# global indices 8243
+Num entries after local reduce: 142179
+d=2, num cols: 49076, num rows: 4000
+# global indices 9926
+Num entries after local reduce: 19852
+Compression...
+d=3 new dimensions are 0x4000
+Compare new dimensions are 0x4000
+d=2 new dimensions are 4000x9926
+Compare new dimensions are 4000x9926
+d=1 new dimensions are 9926x8243
+Compare new dimensions are 9926x8243
+d=0 new dimensions are 8243x2316
+Compare new dimensions are 8243x2316
+Multi-chunk is done
+N before=180307
+N after =24485
+Compression rate: 0.1358
+>>>>>>>>>>>>>>>>>>>> Multi-chunk output end
+Number of chains after mult-chunk: 24485
+Memory after multi-chunk: 45416
+using Mpfree
+Homology dimension is 0
+1st matrix: 4000 x 9926
+2nd matrix: 0 x 4000
+<<<<<<<<<<<<<<<<<<<< Mpfree output start
+here
+Min Gens...done, size is 4000x5883
+Ker basis...done, size is 4000x4000
+Reparameterize...done
+Resulting semi-minimal presentation has 5883 columns and 4000 rows
+Minimize...done
+Resulting minimal presentation has 5883 columns and 4000 rows
+>>>>>>>>>>>>>>>>>>>> Mpfree output end
+Memory after mpfree: 45416
+Memory in the end: 45416
+Overall timer: 0.3658
+Inital timer:           0.004426     ( 1.21% )
+Complex timer:          0.01598     ( 4.369% )
+Face timer:             0.02317     ( 6.334% )
+Meb timer:              0.08726     ( 23.86% )
+Graded matrices timer:  0.1399     ( 38.26% )
+Multi chunk timer:      0.06668     ( 18.23% )
+Mpfree timer:           0.02288     ( 6.255% )
+File output timer:      0
+Delaunay timer:         0
+Test timer 1:           0
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

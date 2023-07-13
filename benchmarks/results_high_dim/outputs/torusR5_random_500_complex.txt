@@ -1,0 +1,37 @@
+Dimension is 5
+Read 500 points
+Memory after initial: 4160
+Start complex
+Number of insertions outside convex hull 139
+Collected 115072 simplices
+Memory after complex: 16764
+Simplex tree has 500 vertices and 1602905 simplices
+Memory after face: 114972
+Simplices per second: 1.22171e+06
+Time per simplex (in microseconds): 0.818548
+Delaunay computed, now counting simplices
+--------------------------------------------
+Delaunay:
+Total size of Del: 301171
+Simplices in dimension 0: 500
+Simplices in dimension 1: 9751
+Simplices in dimension 2: 51481
+Simplices in dimension 3: 108040
+Simplices in dimension 4: 98605
+Simplices in dimension 5: 32794
+Ratio: 5.32224
+--------------------------------------------
+Overall timer: 2.15975
+Inital timer:           0.00375706     ( 0.173958% )
+Complex timer:          0.827027     ( 38.2928% )
+Face timer:             0.343756     ( 15.9165% )
+Meb timer:              0
+Graded matrices timer:  0
+Multi chunk timer:      0
+Mpfree timer:           0
+File output timer:      0
+Delaunay timer:         0.847643     ( 39.2473% )
+Test timer 1:           0.742964     ( 34.4005% )
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

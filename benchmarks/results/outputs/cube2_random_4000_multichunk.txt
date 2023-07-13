@@ -1,0 +1,80 @@
+Dimension is 2
+Read 4000 points
+Memory after initial: 4160
+Start complex
+In the plane, using CGAL::Delaunay_triangulation_2
+Number of insertions outside convex hull 68
+Collected 15814 simplices
+Memory after complex: 5856
+Simplex tree has 4000 vertices and 78859 simplices
+Memory after face: 10344
+Computed 41206 mebs (number of simplices=78859)
+Computed all meb values, now sorting
+Memory after bigrade: 10344
+Building graded boundary matrices
+Simplices in dimension 0: 4000
+Simplices in dimension 1: 23742
+Simplices in dimension 2: 35430
+Simplices in dimension 3: 15687
+Memory after boundary: 22044
+Simplices per second: 593930
+Time per simplex (in microseconds): 1.68404
+Apply multi_chunk
+<<<<<<<<<<<<<<<<<<<< Multi-chunk output start
+Initialize..
+Num rows 0: 35430
+Num rows 1: 23742
+Num rows 2: 4000
+Num rows 3: 0
+Local reductions...
+d=0, num cols: 15687, num rows: 35430
+# global indices 7290
+Num entries after local reduce: 62760
+d=1, num cols: 35430, num rows: 23742
+# global indices 18691
+Num entries after local reduce: 81099
+d=2, num cols: 23742, num rows: 4000
+# global indices 15400
+Num entries after local reduce: 30800
+Compression...
+d=3 new dimensions are 0x4000
+Compare new dimensions are 0x4000
+d=2 new dimensions are 4000x15400
+Compare new dimensions are 4000x15400
+d=1 new dimensions are 15400x18691
+Compare new dimensions are 15400x18691
+d=0 new dimensions are 18691x7290
+Compare new dimensions are 18691x7290
+Multi-chunk is done
+N before=78859
+N after =45381
+Compression rate: 0.5755
+>>>>>>>>>>>>>>>>>>>> Multi-chunk output end
+Number of chains after mult-chunk: 45381
+Memory after multi-chunk: 22044
+In the plane, using CGAL::Delaunay_triangulation_2
+Delaunay computed, now counting simplices
+--------------------------------------------
+Delaunay:
+Total size of Del: 23969
+Simplices in dimension 0: 4000
+Simplices in dimension 1: 11984
+Simplices in dimension 2: 7985
+Ratio: 3.29
+Multi-chunk-Ratio: 1.893
+--------------------------------------------
+Memory in the end: 22044
+Overall timer: 0.1529
+Inital timer:           0.004763     ( 3.116% )
+Complex timer:          0.01045     ( 6.837% )
+Face timer:             0.01098     ( 7.179% )
+Meb timer:              0.04618     ( 30.21% )
+Graded matrices timer:  0.05808     ( 37.99% )
+Multi chunk timer:      0.01119     ( 7.32% )
+Mpfree timer:           0
+File output timer:      0
+Delaunay timer:         0.008849     ( 5.788% )
+Test timer 1:           0.002366     ( 1.548% )
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0

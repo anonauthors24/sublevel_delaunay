@@ -1,0 +1,25 @@
+The folder `results_high_dim` contains the experiments with point sets in dimensions 3 and higher.
+The folder `results` contains the experiments with point sets of various size in dim 2 and 3.
+Each folder contains a subfolder `examples', `outputs`, `bifiltered_graph`
+* Subfolder `examples` contains collections of point clouds together with their fuctions values in the format:
+            x1 x2 x3 ... xn f(x1,x2, ..., xn)
+* Subfolder `outputs` contains the results of the experiments.
+==================================================================================================
+To replicate the experiments for Delaunay bifiltration, one first needs to compile the programs (as described in README.txt),
+then copy the files `main`, `reduce_edges`, and `filtration_domination` in the folder `code` into this folder (`benchmarks`).
+
+To run the experiments, execute:
+        ./run.sh results
+or
+        ./run.sh results_high_dim
+
+==================================================================================================
+To replicate the comparision for density-Rips with filtration-domination preprocessing, 
+one first needs python package `filtration-domination`:
+        pip3 install filtration-domination
+
+then, execute:
+        ./bifiltered_graph.sh results 500
+or 
+        ./bifiltered_graph.sh results 1000
+

@@ -1,0 +1,2 @@
+noise = 0.1, bandwidth = 0.1
+Generating of examples of high dimension

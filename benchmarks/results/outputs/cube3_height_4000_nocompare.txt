@@ -1,0 +1,37 @@
+Dimension is 3
+Read 4000 points
+Memory after initial: 4332
+Start complex
+In space, using CGAL::Delaunay_triangulation_3
+Number of insertions outside convex hull 3996
+Collected 181145 simplices
+Memory after complex: 16944
+Simplex tree has 4000 vertices and 1050155 simplices
+Memory after face: 82416
+Computed 306066 mebs (number of simplices=1050155)
+Computed all meb values, now sorting
+Memory after bigrade: 82416
+Building graded boundary matrices
+Simplices in dimension 0: 4000
+Simplices in dimension 1: 107856
+Simplices in dimension 2: 364371
+Simplices in dimension 3: 417221
+Simplices in dimension 4: 156707
+Memory after boundary: 253824
+Simplices per second: 487265
+Time per simplex (in microseconds): 2.05231
+Memory in the end: 253824
+Overall timer: 2.15527
+Inital timer:           0.00758246     ( 0.351811% )
+Complex timer:          0.094645     ( 4.39133% )
+Face timer:             0.156764     ( 7.27351% )
+Meb timer:              0.726857     ( 33.7247% )
+Graded matrices timer:  1.10322     ( 51.187% )
+Multi chunk timer:      0
+Mpfree timer:           0
+File output timer:      0
+Delaunay timer:         0
+Test timer 1:           0
+Test timer 2:           0
+Test timer 3:           0
+Test timer 4:           0
